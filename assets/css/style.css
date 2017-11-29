@@ -1,0 +1,57 @@
+
+h1 {
+    font-family: 'MedievalSharp', cursive;
+   text-align: center;
+}
+ul {
+   list-style: none;
+}
+li {
+    font-family: 'MedievalSharp', cursive;
+   font-size: 2em;
+}
+input[type=radio] {
+   border: 1px;
+   width: 20px;
+   height: 2em;
+}
+p {
+    font-family: 'MedievalSharp', cursive;
+}
+/* Quiz Classes */
+#quizContainer {
+   border-radius: 6px;
+   padding-top: 5px;
+   background-color: rgba(255, 238, 0, 0.568);
+   -moz-box-shadow: 10px 10px 5px #888;
+   -webkit-box-shadow: 10px 10px 5px #888;
+   box-shadow: 10px 10px 5px #888;
+}
+
+#question {
+    font-family: 'MedievalSharp', cursive;
+   font-size: 2em;
+   border-radius: 6px;
+   background-color: rgb(100, 50, 50);
+   text-align: center;
+   color: rgb(255, 255, 255);
+}
+#quizMessage {
+   background-color: rgb(253, 118, 0);
+   border-radius: 6px;
+   text-align: center;
+   padding: 2px;
+   font-family: 'MedievalSharp', cursive;
+   color: rgb(0, 0, 0);
+}
+#choiceList {
+    font-family: 'MedievalSharp', cursive;
+   color: rgb(226, 70, 43);
+}
+#result {
+   border-radius: 6px;
+   background-color: rgb(255, 255, 0);
+   text-align: center;
+   font-family: 'MedievalSharp', cursive;
+}
+/* End of Quiz Classes */
